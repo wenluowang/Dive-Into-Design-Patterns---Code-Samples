@@ -1,7 +1,4 @@
-checkoutLocation: src/github.com/wenluowang/Dive-Into-Design-Patterns---Code-Samples
-workspaceLocation: /
-image:
-  file: Dockerfile
+image: gitpod/workspace-full-vnc
 ports:
   - port: 6080
-    protocol: "http"
+    onOpen: open-preview
